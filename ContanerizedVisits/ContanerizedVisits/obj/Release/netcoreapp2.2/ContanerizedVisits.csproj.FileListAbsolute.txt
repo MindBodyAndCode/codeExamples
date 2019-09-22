@@ -12,3 +12,17 @@ C:\Proyectos\PersonalProjects\DockerProbes\ContanerizedVisits\ContanerizedVisits
 C:\Proyectos\PersonalProjects\DockerProbes\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.RazorTargetAssemblyInfo.cache
 C:\Proyectos\PersonalProjects\DockerProbes\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.dll
 C:\Proyectos\PersonalProjects\DockerProbes\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.pdb
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\bin\Release\netcoreapp2.2\ContanerizedVisits.deps.json
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\bin\Release\netcoreapp2.2\ContanerizedVisits.runtimeconfig.json
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\bin\Release\netcoreapp2.2\ContanerizedVisits.runtimeconfig.dev.json
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\bin\Release\netcoreapp2.2\ContanerizedVisits.dll
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\bin\Release\netcoreapp2.2\ContanerizedVisits.pdb
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.csprojAssemblyReference.cache
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.csproj.CoreCompileInputs.cache
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.RazorAssemblyInfo.cache
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.RazorAssemblyInfo.cs
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.AssemblyInfoInputs.cache
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.AssemblyInfo.cs
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.RazorTargetAssemblyInfo.cache
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.dll
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Release\netcoreapp2.2\ContanerizedVisits.pdb
