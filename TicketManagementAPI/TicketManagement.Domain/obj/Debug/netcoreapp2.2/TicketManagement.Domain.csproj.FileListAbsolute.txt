@@ -1,0 +1,6 @@
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.Domain\bin\Debug\netcoreapp2.2\TicketManagement.Domain.deps.json
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.Domain\bin\Debug\netcoreapp2.2\TicketManagement.Domain.dll
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.Domain\obj\Debug\netcoreapp2.2\TicketManagement.Domain.csprojAssemblyReference.cache
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.Domain\obj\Debug\netcoreapp2.2\TicketManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.Domain\obj\Debug\netcoreapp2.2\TicketManagement.Domain.AssemblyInfoInputs.cache
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.Domain\obj\Debug\netcoreapp2.2\TicketManagement.Domain.AssemblyInfo.cs

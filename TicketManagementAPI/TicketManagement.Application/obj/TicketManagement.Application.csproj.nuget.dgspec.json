@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Proyectos\\PersonalProjects\\codeExamples\\TicketManagementAPI\\TicketManagement.Application\\TicketManagement.Application.csproj": {}
+  },
+  "projects": {
+    "C:\\Proyectos\\PersonalProjects\\codeExamples\\TicketManagementAPI\\TicketManagement.Application\\TicketManagement.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Proyectos\\PersonalProjects\\codeExamples\\TicketManagementAPI\\TicketManagement.Application\\TicketManagement.Application.csproj",
+        "projectName": "TicketManagement.Application",
+        "projectPath": "C:\\Proyectos\\PersonalProjects\\codeExamples\\TicketManagementAPI\\TicketManagement.Application\\TicketManagement.Application.csproj",
+        "packagesPath": "C:\\Users\\joaquin.garcia\\.nuget\\packages\\",
+        "outputPath": "C:\\Proyectos\\PersonalProjects\\codeExamples\\TicketManagementAPI\\TicketManagement.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joaquin.garcia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.1.34.53:8081/repository/nuget-hosted/": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

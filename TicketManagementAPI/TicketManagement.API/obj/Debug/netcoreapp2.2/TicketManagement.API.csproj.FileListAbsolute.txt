@@ -1,0 +1,3 @@
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.API\obj\Debug\netcoreapp2.2\TicketManagement.API.csproj.CoreCompileInputs.cache
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.API\obj\Debug\netcoreapp2.2\TicketManagement.API.AssemblyInfoInputs.cache
+C:\Proyectos\PersonalProjects\codeExamples\TicketManagementAPI\TicketManagement.API\obj\Debug\netcoreapp2.2\TicketManagement.API.AssemblyInfo.cs
