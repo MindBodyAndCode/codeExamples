@@ -17,7 +17,6 @@ C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\bin\Debug\netcoreapp2.2\ContanerizedVisits.runtimeconfig.dev.json
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\bin\Debug\netcoreapp2.2\ContanerizedVisits.dll
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\bin\Debug\netcoreapp2.2\ContanerizedVisits.pdb
-C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Debug\netcoreapp2.2\ContanerizedVisits.csprojAssemblyReference.cache
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Debug\netcoreapp2.2\ContanerizedVisits.csproj.CoreCompileInputs.cache
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Debug\netcoreapp2.2\ContanerizedVisits.RazorAssemblyInfo.cache
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Debug\netcoreapp2.2\ContanerizedVisits.RazorAssemblyInfo.cs

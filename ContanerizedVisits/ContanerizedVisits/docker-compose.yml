@@ -1,4 +1,4 @@
-version: "3"
+version: "3.7"
 services:
     hello-service:
         image: hello-api
@@ -12,6 +12,14 @@ services:
                 condition: on-failure
         ports:
             - "4000:80"
+        depends_on:
+            - "redis-service"
+        networks:
+            - webnet
+    redis-service:
+        image: redis
+        ports:
+            - "6379:6379"
         networks:
             - webnet
 networks:
