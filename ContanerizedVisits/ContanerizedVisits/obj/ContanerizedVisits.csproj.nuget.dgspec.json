@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Proyectos\\PersonalProjects\\DockerProbes\\ContanerizedVisits\\ContanerizedVisits\\ContanerizedVisits.csproj": {}
+    "C:\\Proyectos\\PersonalProjects\\codeExamples\\ContanerizedVisits\\ContanerizedVisits\\ContanerizedVisits.csproj": {}
   },
   "projects": {
-    "C:\\Proyectos\\PersonalProjects\\DockerProbes\\ContanerizedVisits\\ContanerizedVisits\\ContanerizedVisits.csproj": {
+    "C:\\Proyectos\\PersonalProjects\\codeExamples\\ContanerizedVisits\\ContanerizedVisits\\ContanerizedVisits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Proyectos\\PersonalProjects\\DockerProbes\\ContanerizedVisits\\ContanerizedVisits\\ContanerizedVisits.csproj",
+        "projectUniqueName": "C:\\Proyectos\\PersonalProjects\\codeExamples\\ContanerizedVisits\\ContanerizedVisits\\ContanerizedVisits.csproj",
         "projectName": "ContanerizedVisits",
-        "projectPath": "C:\\Proyectos\\PersonalProjects\\DockerProbes\\ContanerizedVisits\\ContanerizedVisits\\ContanerizedVisits.csproj",
+        "projectPath": "C:\\Proyectos\\PersonalProjects\\codeExamples\\ContanerizedVisits\\ContanerizedVisits\\ContanerizedVisits.csproj",
         "packagesPath": "C:\\Users\\joaquin.garcia\\.nuget\\packages\\",
-        "outputPath": "C:\\Proyectos\\PersonalProjects\\DockerProbes\\ContanerizedVisits\\ContanerizedVisits\\obj\\",
+        "outputPath": "C:\\Proyectos\\PersonalProjects\\codeExamples\\ContanerizedVisits\\ContanerizedVisits\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -52,6 +52,14 @@
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Caching.Redis": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
