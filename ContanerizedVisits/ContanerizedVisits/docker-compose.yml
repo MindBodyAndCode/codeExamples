@@ -1,7 +1,7 @@
 version: "3.7"
 services:
-    hello-service:
-        image: greetings-api
+    hola-service:
+        image: hola-api
         deploy:
             replicas: 4
             resources:
