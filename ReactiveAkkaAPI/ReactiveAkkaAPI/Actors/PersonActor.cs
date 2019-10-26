@@ -24,7 +24,22 @@ namespace ReactiveAkkaAPI.Actors
             });
         }
 
+        // Redefine Custom SupervisionStrategy (One for One with restarting by Default)
+        protected override SupervisorStrategy SupervisorStrategy()
+        {
+            return new OneForOneStrategy(
+                maxNrOfRetries: 10,
+                withinTimeRange: TimeSpan.FromMinutes(1.0),
+                decider: Decider.From(exception =>
+                {
+                    if (exception is ArithmeticException)
+                        return Directive.Restart; // Reinicia al actor (e hijos) en caso de esta excepción
+                    else
+                        return Directive.Resume; // Para todas las demás excepciones las ignora
+                })
+            );
 
+        }
     }
 
 }
