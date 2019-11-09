@@ -13,6 +13,7 @@ namespace DesignPatterns
                 Console.WriteLine("Welcome to Design Pattern Examples!!");
                 Console.WriteLine("0 - exit");
                 Console.WriteLine("1 - Factory Method");
+                Console.WriteLine("2 - Singleton");
                 input = Console.ReadLine();
 
                 switch (input)
@@ -23,7 +24,9 @@ namespace DesignPatterns
                     case "1":
                         DesignPatterns.FactoryMethod();
                         break;
-
+                    case "2":
+                        DesignPatterns.Singleton();
+                        break;
                 }
 
                 Console.WriteLine();

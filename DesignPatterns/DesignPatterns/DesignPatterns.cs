@@ -1,5 +1,6 @@
 ﻿using DesignPatterns.FactoryMethod;
 using DesignPatterns.Model;
+using DesignPatterns.Singleton;
 using System;
 
 namespace DesignPatterns
@@ -17,6 +18,17 @@ namespace DesignPatterns
             vehicle = vehicleFactory.Create(typeof(MotorBike));
 
             Console.WriteLine(vehicle.drive());
+        }
+
+        public static void Singleton()
+        {
+            var carSingleton = SingletonCar.GetInstance;
+
+            Console.WriteLine("Hi! Im singleton car with Id: " + carSingleton.GetHashCode());
+
+            var otherCarSingleton = SingletonCar.GetInstance;
+
+            Console.WriteLine("Hi! Im singleton car with Id: " + otherCarSingleton.GetHashCode());
         }
     }
 }
