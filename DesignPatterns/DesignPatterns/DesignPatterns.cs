@@ -1,4 +1,6 @@
-﻿using DesignPatterns.FactoryMethod;
+﻿using Autofac;
+using DesignPatterns.Depencency_Injection;
+using DesignPatterns.FactoryMethod;
 using DesignPatterns.Model;
 using DesignPatterns.Singleton;
 using System;
@@ -29,6 +31,24 @@ namespace DesignPatterns
             var otherCarSingleton = SingletonCar.GetInstance;
 
             Console.WriteLine("Hi! Im singleton car with Id: " + otherCarSingleton.GetHashCode());
+        }
+
+        public static void DependencyInjection()
+        {
+            var containerBuilder = new ContainerBuilder();
+            containerBuilder.RegisterModule<AutofacModule>();
+            var diContainer = containerBuilder.Build();
+
+            // Constructor injection example
+            var autofacExample = diContainer.Resolve<AutofacExample>();
+            var car = autofacExample.GetCar();
+            Console.WriteLine(car.drive());
+
+            // Property injection example
+            var motorBike = autofacExample.MotorBike;
+            Console.WriteLine(motorBike.drive());
+
+            // Method injection example
         }
     }
 }
