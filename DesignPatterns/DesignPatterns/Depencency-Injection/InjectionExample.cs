@@ -3,13 +3,13 @@ using DesignPatterns.Model;
 
 namespace DesignPatterns.Depencency_Injection
 {
-    public class AutofacExample
+    public class InjectionExample
     {
         private readonly IFactory _vehicleFactory;
 
         public MotorBike MotorBike { get; set; }
 
-        public AutofacExample(IFactory vehicleFactory)
+        public InjectionExample(IFactory vehicleFactory)
         {
             _vehicleFactory = vehicleFactory ?? throw new System.ArgumentNullException(nameof(vehicleFactory));
         }

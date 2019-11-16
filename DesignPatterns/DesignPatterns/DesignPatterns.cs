@@ -40,15 +40,18 @@ namespace DesignPatterns
             var diContainer = containerBuilder.Build();
 
             // Constructor injection example
-            var autofacExample = diContainer.Resolve<AutofacExample>();
-            var car = autofacExample.GetCar();
+            var injectionExample = diContainer.Resolve<InjectionExample>();
+            var car = injectionExample.GetCar();
             Console.WriteLine(car.drive());
 
             // Property injection example
-            var motorBike = autofacExample.MotorBike;
+            var motorBike = injectionExample.MotorBike;
             Console.WriteLine(motorBike.drive());
 
             // Method injection example
+            var methodInjectionExample = diContainer.Resolve<MethodInjectionExample>();
+            var truck = methodInjectionExample.GetTruck();
+            Console.WriteLine(truck.drive());
         }
     }
 }

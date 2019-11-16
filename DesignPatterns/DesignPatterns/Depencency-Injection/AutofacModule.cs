@@ -16,10 +16,19 @@ namespace DesignPatterns.Depencency_Injection
             builder.RegisterType<VehicleFactory>().As<IFactory>().SingleInstance();
 
             builder.RegisterType<MotorBike>().InstancePerDependency();
+            builder.RegisterType<Truck>().InstancePerDependency();
 
-            builder.RegisterType<AutofacExample>()
+            builder.RegisterType<InjectionExample>()
                 .PropertiesAutowired()
                 .InstancePerDependency();
+
+            builder.Register(c =>
+            {
+                var methodInjectionExample = new MethodInjectionExample();
+                var truck = c.Resolve<Truck>();
+                methodInjectionExample.SetTruck(truck);
+                return methodInjectionExample;
+            });
         }
     }
 }
