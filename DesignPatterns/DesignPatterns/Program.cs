@@ -15,6 +15,7 @@ namespace DesignPatterns
                 Console.WriteLine("1 - Factory Method");
                 Console.WriteLine("2 - Singleton");
                 Console.WriteLine("3 - Dependency Injection");
+                Console.WriteLine("4 - Builder");
                 input = Console.ReadLine();
 
                 switch (input)
@@ -30,6 +31,9 @@ namespace DesignPatterns
                         break;
                     case "3":
                         DesignPatterns.DependencyInjection();
+                        break;
+                    case "4":
+                        DesignPatterns.Builder();
                         break;
                 }
 

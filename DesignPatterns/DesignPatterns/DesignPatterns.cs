@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using DesignPatterns.Builder;
 using DesignPatterns.Depencency_Injection;
 using DesignPatterns.FactoryMethod;
 using DesignPatterns.Model;
@@ -52,6 +53,17 @@ namespace DesignPatterns
             var methodInjectionExample = diContainer.Resolve<MethodInjectionExample>();
             var truck = methodInjectionExample.GetTruck();
             Console.WriteLine(truck.drive());
+        }
+
+        public static void Builder()
+        {
+            var car = new CarBuilder()
+                .SetEnrollment("3685PKV")
+                .SetHorsePower(170)
+                .SetEnrollmentDate(DateTime.Now)
+                .Build();
+
+            Console.WriteLine(car.ToString());
         }
     }
 }
