@@ -3,28 +3,28 @@ using System;
 
 namespace DesignPatterns.Builder
 {
-    public class CarBuilder
+    public class GolfBuilder : ICarBuilder
     {
         private Car _car;
 
-        public CarBuilder()
+        public GolfBuilder()
         {
             _car = new Car();
         }
 
-        public CarBuilder SetEnrollment(string enrollment)
+        public ICarBuilder SetEnrollment(string enrollment)
         {
             _car.Enrollment = enrollment;
             return this;
         }
 
-        public CarBuilder SetHorsePower(double horsePower)
+        public ICarBuilder SetHorsePower()
         {
-            _car.HorsePower = horsePower;
+            _car.HorsePower = 170;
             return this;
         }
 
-        public CarBuilder SetEnrollmentDate(DateTime enrollmentDate)
+        public ICarBuilder SetEnrollmentDate(DateTime enrollmentDate)
         {
             _car.EnrollmentDate = enrollmentDate;
             return this;

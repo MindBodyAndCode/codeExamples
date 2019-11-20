@@ -57,13 +57,20 @@ namespace DesignPatterns
 
         public static void Builder()
         {
-            var car = new CarBuilder()
+            var golf = new GolfBuilder()
                 .SetEnrollment("3685PKV")
-                .SetHorsePower(170)
+                .SetHorsePower()
                 .SetEnrollmentDate(DateTime.Now)
                 .Build();
 
-            Console.WriteLine(car.ToString());
+            var honda = new HondaBuilder()
+                .SetEnrollment("4367TDL")
+                .SetHorsePower()
+                .SetEnrollmentDate(DateTime.Now)
+                .Build();
+
+            Console.WriteLine(golf.ToString());
+            Console.WriteLine(honda.ToString());
         }
     }
 }
