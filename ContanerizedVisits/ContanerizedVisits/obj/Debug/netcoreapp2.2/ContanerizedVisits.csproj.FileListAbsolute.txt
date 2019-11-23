@@ -25,3 +25,4 @@ C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Debug\netcoreapp2.2\ContanerizedVisits.RazorTargetAssemblyInfo.cache
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Debug\netcoreapp2.2\ContanerizedVisits.dll
 C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Debug\netcoreapp2.2\ContanerizedVisits.pdb
+C:\Proyectos\PersonalProjects\codeExamples\ContanerizedVisits\ContanerizedVisits\obj\Debug\netcoreapp2.2\ContanerizedVisits.csprojAssemblyReference.cache
